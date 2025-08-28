@@ -15,7 +15,7 @@ public static void main(String[] args) {
                 j=j+x;
             }
         } System.out.println(j);
-        j=0;
+        
     }
 
 
