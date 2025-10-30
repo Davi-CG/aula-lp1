@@ -8,11 +8,8 @@ public class color {
     final static  String roxo  = "\u001B[35m"; 
     final static  String ciano  = "\u001B[36m"; 
     final static  String branco  = "\u001B[37m"; 
+    final static  String limpar="\033[H\033[2J";
 
     
 
-    public static void main(String[] args) {
-        System.out.println(branco+"normal");
-        
-
-System.out.println("");}}
+}

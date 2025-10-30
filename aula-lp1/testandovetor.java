@@ -16,11 +16,24 @@ parte2();
 
 
 
-public static void parte3(){
-    System.out.println("urg");
+public static void imprimirveytot(int[] vetot){
+  for (int i = 0; i < vetot.length; i++) {
+      System.out.println(vetot[i]);
+  }
+  
+  
 }
 
+public static void coucatenatvetot(int[] vetot1,int[] outrovetot){
+int[] vetot3= new int[vetot1.length+outrovetot.length];
+for (int i = 0; i < vetot1.length; i++) {
+    vetot3[i]= vetot1[i];
+}
+for (int i = 0; i < +outrovetot.length ; i++) {
+  vetot3[i+vetot1.length]= vetot1[i];
+}
 
+}
 
 
 
@@ -48,14 +61,21 @@ for (int i = 0; i < n-1; i++) {
 
   public static int[] criarvetot(int n){
 int[]a=new int[n];
-    for (int i = 0; i < n-1; i++) {
+    for (int i = 0; i < n; i++) {
     a[i]=lernumInt();
     
 }return a;
 
   }  
 
-
+  public static int[] criarvetotAleatoriu(int n,int mv){
+    int[]a=new int[n];
+        for (int i = 0; i < n; i++) {
+        a[i]= (int) (Math.random() *mv);
+        
+    }return a;
+    
+      }  
 
 
 
