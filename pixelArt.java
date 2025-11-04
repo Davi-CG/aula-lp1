@@ -13,8 +13,9 @@ public class pixelArt {
     final static String limpar = "\033[H\033[2J";
 
     public static void main(String[] args) {
-      
-        String[] a = new String[8];
+        
+        
+        String[] a = new String[9];
         a[0] = amarelo;
         a[1] = preto;
         a[2] = vermelho;
@@ -23,8 +24,8 @@ public class pixelArt {
         a[5] = roxo;
         a[6] = ciano;
         a[7] = branco;
-
-
+        a[8] = limpar;
+        System.out.println("rolas");
     }
 
 public static void imprimatixz(){
@@ -49,5 +50,4 @@ public static void imprimatixz(){
         return v;
     }
 
-    
 }
