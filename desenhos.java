@@ -28,6 +28,6 @@ public class desenhos {
         System.out.println(vermelho + "███████████");
         System.out.println(vermelho + "█████" + amareloFundo + amarelo + "☭" + vermelho + "█████");
         System.out.println(vermelho + "███████████");//Socialismo
-        }
+        }//comentario
     }
 }
