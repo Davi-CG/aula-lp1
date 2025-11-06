@@ -25,7 +25,7 @@ public class pixelArt {
         a[6] = ciano;
         a[7] = branco;
         a[8] = limpar;
-        System.out.println("rolas");
+        System.out.println("teste");
     }
 
 public static void imprimatixz(){
