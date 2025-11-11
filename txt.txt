@@ -1,0 +1,1 @@
+txt(a funçao dele e 'txt')

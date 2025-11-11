@@ -19,8 +19,17 @@ public class pixelArt {
     final static String cianof = "\u001B[46m";
     final static String brancof = "\u001B[47m";
     final static String limpar = "\033[H\033[2J";
-
+    final static String resef = "\u001B[00m";
     public static void main(String[] args) {
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29,7 +38,7 @@ public class pixelArt {
 
 
 public static String coures(int n){
-    String[] a = new String[17];
+    String[] a = new String[18];
         a[0] = amarelo;
         a[1] = preto;
         a[2] = vermelho;
@@ -47,22 +56,34 @@ public static String coures(int n){
         a[14]=roxof;
         a[15]=cianof;
         a[16]=brancof;
+        a[17]=resef;
 String A= a[n];
 return A;
 }
 
+
+
+
+
 public static void imprimirtela(String[][] a, int c, int l){
     System.out.println(coures(8)); 
 for (int j = 0; j < c; j++) {
+    System.out.println();
             for (int i = 0; i < l; i++) {
-              System.out.println(a[j][i]);   
+              System.out.print(a[j][i]);   
 
             }
         }
 
 }
-public static void desenhar(){
-   
+public static void desenhar(String[][] a){
+   int x=lernumInt();
+   int y=lernumInt();
+   int cor=lernumInt();
+a[y][x]=coures(cor)+"██"+coures(17);
+
+
+
 }
 
 
@@ -88,5 +109,4 @@ public static void desenhar(){
     }
 
 }
-///só pra dar 100 linhas
-/// eu preciso colocar aparte
+
