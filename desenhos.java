@@ -14,8 +14,39 @@ public class desenhos {
     public static void main(String[] args) {
         
         int bandeira = 0;System.out.println();System.out.println();
-        System.out.println("==============================     Seja bem vindo ao Pixel Art vagabundo!!!!!!    =========================================");
-        System.out.println("");
+        System.out.println("==============================     Seja bem vindo ao Pixel Art !!!!!!    =========================================");
+        System.out.printf("\nInforme o que voçe irá fazer:\n\n");
+        System.out.println("1-Desenhar");
+        System.out.println("2-Carregar");
+        System.out.println("3-Salvar");
+        System.out.println("4-");
+        int opcaoSelec = sc.nextInt();
+        if(opcaoSelec == 1){
+            System.out.println("Opção desenhar selecionada!");
+            System.out.printf("\nDica:\n Você irá desenhar utilizando números:\n o primeiro número será a posição Y (Compimento), o segundo será X (Largura), e o terçeiro será a cor ");
+            System.out.printf("\nQuando estiver pronto, aperte espaço ( e enter para ler o espaço) para iniciar o (Obs: quadro é branco!)");
+            //parte do davi, Gabriel é burro!!!
+        }else if(opcaoSelec == 2){
+            System.out.printf("\nSelecione a categoria que deseja carragar:\n\n");
+            System.out.println("1-Bandeiras");
+            System.out.println("2-carros");
+            System.out.println("3-casas");
+            int band = sc.nextInt();
+            if(band == 1 ){
+                System.out.println("bandeiras:");
+                System.out.printf("\n1-Alemanha");
+                System.out.printf("\n2-Russia");
+                System.out.printf("\n3-França");
+                System.out.printf("\n4-Bélgica");
+                System.out.printf("\n5-Ucrânia");
+                System.out.printf("\n6-");
+                bandeiras(bandeira);
+            }
+        }else if(opcaoSelec == 3){
+
+        }else if(opcaoSelec == 4){
+
+        }
         bandeiras(bandeira);
     }
     public static void bandeiras(int bandeira){
@@ -35,21 +66,20 @@ public class desenhos {
         System.out.println();
         //Russia
 
-        }else if (bandeira == 3){
-        System.out.println(vermelho+ "███████████");
-        System.out.println(vermelho + "█████" + vermelhof + amarelo + "☭" + vermelho + "█████"+ resetf);
-        System.out.println(vermelho + "███████████" + branco + resetf);
+        }else if (bandeira == 5){
+        System.out.println(azul + "█████████");
+        System.out.println(amarelo + "█████████" + resetf);
         System.out.println();
-        //Socialismo
+        //ucránia
         
-        }else if (bandeira == 4){
+        }else if (bandeira == 3){
         System.out.println(azul + "███" + branco + "███" + vermelho + "███");
         System.out.println(azul + "███" + branco + "███"+ vermelho + "███");
         System.out.println(azul + "███" + branco + "███" + vermelho + "███" + resetf);
         System.out.println();
         //frança
         }else if 
-        (bandeira == 5){
+        (bandeira == 4){
         System.out.println(preto + "███" + amarelo + "███" + vermelho + "███");
         System.out.println(preto + "███" + amarelo + "███"+ vermelho + "███");
         System.out.println(preto + "███" + amarelo + "███" + vermelho + "███" + resetf);

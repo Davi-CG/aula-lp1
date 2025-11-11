@@ -36,3 +36,10 @@ v3[0]+v3[1]+v3[2]+v3[3]+v3[4] );
 
     }
 }
+/*codigo do desenho:
+else if (bandeira == 5){
+        System.out.println(vermelho+ "███████████");
+        System.out.println(vermelho + "█████" + vermelhof + amarelo + "☭" + vermelho + "█████"+ resetf);
+        System.out.println(vermelho + "███████████" + branco + resetf);
+        System.out.println();
+        //Socialismo */
