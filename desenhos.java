@@ -27,10 +27,7 @@ public class desenhos {
             System.out.printf("\nQuando estiver pronto, aperte espaço ( e enter para ler o espaço) para iniciar o (Obs: quadro é branco!)");
             //parte do davi, Gabriel é burro!!!
         }else if(opcaoSelec == 2){
-            System.out.printf("\nSelecione a categoria que deseja carragar:\n\n");
-            System.out.println("1-Bandeiras");
-            System.out.println("2-carros");
-            System.out.println("3-casas");
+            System.out.printf("\nSelecione o arquivo que deseja carregar:\n\n");
             int band = sc.nextInt();
             if(band == 1 ){
                 System.out.println("bandeiras:");
@@ -39,7 +36,7 @@ public class desenhos {
                 System.out.printf("\n3-França");
                 System.out.printf("\n4-Bélgica");
                 System.out.printf("\n5-Ucrânia");
-                System.out.printf("\n6-");
+                System.out.printf("\n6-Japão\n");
                 bandeiras(bandeira);
             }
         }else if(opcaoSelec == 3){
@@ -65,7 +62,7 @@ public class desenhos {
         System.out.println(vermelho + "███████████" + resetf);
         System.out.println();
         //Russia
-
+                            
         }else if (bandeira == 5){
         System.out.println(azul + "█████████");
         System.out.println(amarelo + "█████████" + resetf);
@@ -86,6 +83,13 @@ public class desenhos {
         System.out.println();
         //bélgica
 
+        }if(bandeira == 6){
+        System.out.println(branco+ "██████████");
+        System.out.println(branco + "████" + brancof + vermelho + "𒊹" + branco + "█████" + resetf);
+        System.out.println(branco + "██████████" + resetf);
+        bandeira = 0;
+        //Japão
+    
         }
         if(bandeira>=10){
             break;
