@@ -38,7 +38,7 @@ public class desenhos {
                 System.out.printf("\n5-Ucrânia");
                 System.out.printf("\n6-Japão\n");
                 bandeiras(bandeira);
-            }
+            }   
         }else if(opcaoSelec == 3){
 
         }else if(opcaoSelec == 4){
